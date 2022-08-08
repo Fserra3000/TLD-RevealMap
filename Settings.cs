@@ -18,7 +18,7 @@ namespace Settings
 
 		[Name("Survival")]
 		[Description("Reveal map during survival mode. Cannot be undone once game is saved.")]
-		public bool survival = false;
+		public bool survival = true;
 
         [Name("Trials")]
         [Description("Reveal map during trials. Cannot be undone once game is saved.")]
